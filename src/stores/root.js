@@ -16,7 +16,7 @@ export const useRootStore = defineStore('root', () => {
     const data = await CommonService.getCategories();
 
     categories.value = data 
-  }то
+  }
 
     async function getIngredients() {
     const data = await CommonService.getIngredients();
